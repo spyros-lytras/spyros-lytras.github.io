@@ -11664,16 +11664,36 @@ img.mfp-img {
     padding-right: 6px; } }
 
 /* Styles for dialog window */
-#small-dialog {
-  max-width: 750px;
-  margin: 40px auto;
-  position: relative; }
+  #small-dialog-1 {
+    max-width: 750px;
+    margin: 40px auto;
+    position: relative; }
+  
+  div#small-dialog-1 iframe {
+    width: 100%;
+    height: 400px;
+    display: block; }
 
-div#small-dialog iframe {
-  width: 100%;
-  height: 400px;
-  display: block; }
+    #small-dialog-2 {
+      max-width: 750px;
+      margin: 40px auto;
+      position: relative; }
+    
+    div#small-dialog-2 iframe {
+      width: 100%;
+      height: 400px;
+      display: block; }
 
+      #small-dialog-3 {
+        max-width: 750px;
+        margin: 40px auto;
+        position: relative; }
+      
+      div#small-dialog-3 iframe {
+        width: 100%;
+        height: 400px;
+        display: block; }
+            
 /**
    * Fade-zoom animation for first dialog
    */
